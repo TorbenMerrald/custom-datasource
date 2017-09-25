@@ -11,4 +11,4 @@ _[CurrencyServiceBean](https://github.com/aleksey-stukalov/custom-datasource/blo
 
 _[CurrencyRateDatasource](https://github.com/aleksey-stukalov/custom-datasource/blob/0770428e1cd87ff37a2632ac3c7105208c45b0f1/modules/web/src/com/company/customdatasource/web/screens/customdatasources/CurrencyRateDatasource.java)_ wraps _[CurrencyService](https://github.com/aleksey-stukalov/custom-datasource/blob/0770428e1cd87ff37a2632ac3c7105208c45b0f1/modules/global/src/com/company/customdatasource/service/CurrencyService.java)_ into a collection datasource to be able to use CUBA's standard mechanisms. As an example, this class is specified as a datasource class in _[currency-screen.xml](https://github.com/aleksey-stukalov/custom-datasource/blob/master/modules/web/src/com/company/customdatasource/web/screens/currency-screen.xml#L10)_; so the main table of the screen is filled automatically according to the _[specified datasource](https://github.com/aleksey-stukalov/custom-datasource/blob/master/modules/web/src/com/company/customdatasource/web/screens/currency-screen.xml#L28)_ . 
 
-Based on CUBA Platform 6.3.0.RC2
+Based on CUBA Platform 6.6.3
