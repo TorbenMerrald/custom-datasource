@@ -14,7 +14,8 @@ public enum CurrencyEnum implements EnumClass<String> {
     RON("RON"),
     AUD("AUD"),
     BGN("BGN"),
-    BRL("BRL");
+    BRL("BRL"),
+    DKK("DKK");
 
     private String id;
 
